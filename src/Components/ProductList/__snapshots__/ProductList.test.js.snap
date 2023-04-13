@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductList related tests should render component <ProductList /> properly 1`] = `
+<div>
+  <h3
+    className="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1mktp8m-MuiTypography-root"
+  >
+    Products
+  </h3>
+</div>
+`;

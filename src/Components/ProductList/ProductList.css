@@ -1,0 +1,71 @@
+.avatar {
+    vertical-align: middle;
+    width: 250px;
+    height: 250px;
+  }
+  span {
+    margin: 3%;
+  }
+  li {
+    margin:10%;
+    padding: 5%;
+  }
+  img{
+    width: 150px;
+    height: 150px;
+  }
+  .App-header {
+    background-color: #e0e0e052;
+    /* min-height: 100vh; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+  }
+  .App-header img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+
+  .App-header span{
+    font-size: 15px;
+    text-align: center;
+  }
+  .most-viewed{
+    margin:0;
+    align-self: flex-start;
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+
+  }
+  /* for Firefox */
+@-moz-keyframes my-animation {
+    from { -moz-transform: translateX(-100%); }
+    to { -moz-transform: translateX(100%); }
+  }
+  
+  /* for Chrome */
+  @-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(-100%); }
+    to { -webkit-transform: translateX(100%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+    to {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
+  }
