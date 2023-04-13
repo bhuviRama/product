@@ -45,5 +45,9 @@
     "enzyme": "^3.11.0",
     "jest": "^27.5.1",
     "react-test-renderer": "^18.2.0"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
